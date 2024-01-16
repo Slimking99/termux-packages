@@ -18,7 +18,7 @@
 -#  if __has_include_next(<math.h>)
 -#    include_next <math.h>
 -#  endif
-+#include "../../math.h"
++#include "@TERMUX_PREFIX@/include/math.h"
  
  #ifdef __cplusplus
  
